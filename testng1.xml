@@ -1,0 +1,24 @@
+<suite name="SmokeTest" parallel ="tests" >
+  <test name="MBEPtestsforChrome" >
+  <parameter name="browserName" value="chrome"/>
+    <classes>
+       <class name="com.mbep.qa.testdata.LoginPageTest"/>
+       <method>
+       			<include name="loginTittleTest()"/>
+       			<include name="Password_Reset_Page()"/>
+       			<include name="loginTest()"/>
+       		</method> 
+    </classes>
+  </test>
+  <test name="MBEPtestsforIE" >
+  <parameter name="browserName1" value="ie"/>
+    <classes>
+       <class name="com.mbep.qa.testdata.LoginPageTest"/>
+       <method>
+       			<include name="loginTittleTest()"/>
+       			<include name="Password_Reset_Page()"/>
+       			<include name="loginTest()"/>
+       		</method> 
+    </classes>
+  </test>
+</suite>

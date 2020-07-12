@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeTest]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="MBEPtests(failed)">
+    <classes>
+      <class name="com.mbep.qa.testdata.HomePageTest">
+        <methods>
+          <include name="DealerStatusSummary"/>
+          <include name="EscrowSummary"/>
+          <include name="EarningsSummary"/>
+          <include name="MFIFreezePeriod"/>
+          <include name="RetailEvolution"/>
+          <include name="setUp"/>
+          <include name="MBEPNCProgram"/>
+          <include name="FacilityInformationReport"/>
+          <include name="FacilityInformation"/>
+          <include name="tearDown"/>
+          <include name="EarningsDetail"/>
+          <include name="CurrentMBEPProgramMain"/>
+          <include name="MBEPHawaiiProgram"/>
+          <include name="PaymentManagement"/>
+        </methods>
+      </class> <!-- com.mbep.qa.testdata.HomePageTest -->
+      <class name="com.mbep.qa.testdata.LoginPageTest">
+        <methods>
+          <include name="loginTittleTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mbep.qa.testdata.LoginPageTest -->
+    </classes>
+  </test> <!-- MBEPtests(failed) -->
+</suite> <!-- Failed suite [SmokeTest] -->

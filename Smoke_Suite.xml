@@ -1,0 +1,32 @@
+<suite name="SmokeTest" parallel="false">
+<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+  <test name="MBEPtests" >
+    <classes>
+       <class name="com.mbep.qa.testdata.LoginPageTest">
+       		<method>
+       			<include name="loginTittleTest()"/>
+       			<include name="Password_Reset_Page()"/>
+       			<include name="loginTest()"/>
+       		</method>
+       	</class>
+       	<class name="com.mbep.qa.testdata.HomePageTest">
+       		<method>
+       			<include name="RetailEvolution()"/>
+       			<include name="CurrentMBEPProgramMain()"/>
+       			<include name="MBEPHawaiiProgram()"/>
+       			<include name="MBEPNCProgram()"/>
+       			<include name="FacilityInformation()"/>
+       			<include name="FacilityInformationReport()"/>
+       			<include name="MFIFreezePeriod()"/>
+       			<include name="DealerStatusSummary()"/>
+       			<include name="EarningsSummary()"/>
+       			<include name="EarningsDetail()"/>
+       			<include name="EscrowSummary()"/>
+       			<include name="PaymentManagement()"/>
+       		</method>
+       	</class>
+    </classes>
+  </test>
+</suite>
