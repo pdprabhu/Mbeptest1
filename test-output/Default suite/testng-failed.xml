@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mbep.qa.testdata.HomePageTest">
+      <class name="com.mbep.qa.testdata.LoginPageTest">
         <methods>
-          <include name="MFIFreezePeriod"/>
-          <include name="setUp"/>
+          <include name="loginTittleTest"/>
           <include name="tearDown"/>
-          <include name="PaymentManagement"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.mbep.qa.testdata.HomePageTest -->
+      </class> <!-- com.mbep.qa.testdata.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
