@@ -11,7 +11,7 @@
        			<include name="loginTest()"/>
        		</method>
        	</class>
-       	<class name="com.mbep.qa.testdata.HomePageTest">
+       <!-- 	<class name="com.mbep.qa.testdata.HomePageTest">
        		<method>
        			<include name="RetailEvolution()"/>
        			<include name="CurrentMBEPProgramMain()"/>
@@ -24,9 +24,9 @@
        			<include name="EarningsSummary()"/>
        			<include name="EarningsDetail()"/>
        			<include name="EscrowSummary()"/>
-       			<include name="PaymentManagement()"/>
+       			<include name="PaymentManagement()"/> 
        		</method>
-       	</class>
+       	</class> -->
     </classes>
   </test>
 </suite>
